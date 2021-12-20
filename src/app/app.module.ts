@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { PoModule } from '@po-ui/ng-components';
+import { PoModule, PoTableModule } from '@po-ui/ng-components';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     PoModule,
+    PoTableModule,
     RouterModule.forRoot([])
   ],
   providers: [],
